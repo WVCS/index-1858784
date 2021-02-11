@@ -1,0 +1,30 @@
+body{
+	padding-left: 11em;
+	font-family: "Times New Roman";
+	color: purple;
+background-color: yellow}
+body img{
+		background: black
+		margin: 0.5em 0;
+		padding: 0.3em;
+		width: 15sem;
+		height: 10em
+}
+
+ul.navbar {
+	list-style-type:{color: blue; background:Yellow};
+	padding:0;
+	margin:0;
+	position:absolute;
+	top:8em;
+	left:2em;
+	width:12em }
+	
+	ul.navbar li{
+		background: white
+		margin: 0.5em 0;
+		padding: 0.3em;
+	border-right 1em solid black}
+	ul.navbar a{text-decoration: none}
+	a.link {color:blue}
+	a.visited { color:purple}
