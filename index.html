@@ -1,46 +1,74 @@
-<html>
-<header> 
-<title>Paul's Transportation Page</title>
-<link rel="stylesheet" href="paul-style.css">
-</header>
-<html><body>
- <html lang="en">
-<head>
-<title>Page Title</title>
-<link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <div class="header">
-      <h1> Paul's Hobby </h1> <p> <b>Welcome to Paul's transporation and stadiums sharing with classmates </b> </p></div> 
-    
-   <div class="row"> 
-     
-     
-     <ul class="navbar">
-<li><a href="Paul-Transportation.html">Home Page</a>
-</li>
-       <li><a href="spaceship.html">Spaceship</a> 
-</li><li><a href="airport.html">Airport</a>
-</li>
-       <li><a href="selfdrivingcar.html">Self Driving Vehicles</a>
-</li>       <li><a href="selfdrivingcar.html">Stadiums</a>
-</li>
-       
-       <li><a href="aboutme.html">About Author</a>
-</li></ul>
-   
-   <div class="main">
-     <h2>Intoduction to self driving vehicles</h2>
-        <h5> Transportation and Stadium Artifact shown below </h5>
-   <div class="imgstyle" style="height:200px;width:200px"> image  
-     
-     </div>
-   </div>
-  </div> 
-  </body> 
-    
-  </html>
-  
+/* Header/logo Title */
+.header {
+  padding: 3em;
+  text-align: center;
+  background: blue;
+  color: white;
+}
 
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+
+
+
+
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.about {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+/* Fake image, just for this example */
+.imgstyle {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+body{
+	padding-left: 11em;
+	font-family: "Times New Roman";
+	color: purple;
+background-color: yellow}
+body img{
+		background: black
+		margin: 0.5em 0;
+		padding: 0.3em;
+		width: 15sem;
+		height: 10em
+}
+
+ul.navbar {
+	list-style-type:{color: blue; background:Yellow};
+	padding:0;
+	margin:0;
+	position:absolute;
+	top:8em;
+	left:2em;
+	width:12em }
+	
+	ul.navbar li{
+		background: white
+		margin: 0.5em 0;
+		padding: 0.3em;
+	border-right 1em solid black}
+	ul.navbar a{text-decoration: none}
+	a.link {color:blue}
+	a.visited { color:purple}
 
       
