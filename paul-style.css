@@ -89,3 +89,18 @@ ul.navbar {
   flex: 70%;
   background-color: white;
   padding: 20px;
+	/* Header/logo Title */
+.header {
+  padding: 3em;
+  text-align: center;
+  background: blue;
+  color: white;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
