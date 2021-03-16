@@ -6,5 +6,4 @@ box <div class="wrapper">
   </div>
 <div class="box"> drinks  </div>
   <div class="box">limited items</div>
-link rel="stylesheet" href="styles.css">
-  
+ <link rel="stylesheet" href="grid layout.css">  
