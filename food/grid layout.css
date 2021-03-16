@@ -1,0 +1,14 @@
+body{background-color:#42aaff;}
+.wrapper{
+  display: grid;
+  grid-template-columns:100px 100px
+  100px;
+  grid-gap:50px;
+  background-color:#32a895;
+}
+.box{
+  backround-color:blue;
+  border-radius:17px;
+  padding:20px;
+  font-size:200%;
+}
