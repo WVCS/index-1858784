@@ -1,9 +1,0 @@
-box <div class="wrapper"> 
-
-    <div class="box"> fries 
-  </div>
-    <div class="box">burger 
-  </div>
-<div class="box"> drinks  </div>
-  <div class="box">limited items</div>
- <link rel="stylesheet" href="grid layout.css">  
