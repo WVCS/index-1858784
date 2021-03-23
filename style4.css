@@ -1,0 +1,72 @@
+/* Header/logo Title */
+.header {
+  padding: 3em;
+  text-align: center;
+  background: blue;
+  color: white;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+
+
+
+
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.about {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+/* Fake image, just for this example */
+.imgstyle {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+body{
+	padding-left: 11em;
+	font-family: "Times New Roman";
+	color: purple;
+background-color: yellow}
+body img{
+		background: black
+		margin: 0.5em 0;
+		padding: 0.3em;
+		width: 15sem;
+		height: 10em
+}
+
+ul.navbar {
+	list-style-type:{color: blue; background:Yellow};
+	padding:0;
+	margin:0;
+	position:absolute;
+	top:8em;
+	left:2em;
+	width:12em }
+	
+	ul.navbar li{
+		background: white
+		margin: 0.5em 0;
+		padding: 0.3em;
+	border-right 1em solid black}
+	ul.navbar a{text-decoration: none}
+	a.link {color:blue}
+	a.visited { color:purple}
