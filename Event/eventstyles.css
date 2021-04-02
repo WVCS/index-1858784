@@ -1,0 +1,136 @@
+body {
+  background-color: black;
+}
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
+  grid-gap: 10px;
+  background-color: aqua;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 10px 10px;
+  font-size: 30px;
+}
+
+#mainheader {
+    background-color: aqua;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 30px;
+}
+
+#leftmenu {
+    margin-top: 50px;
+    float: left;
+    width: 20%;
+    margin-bottom: 20px;
+    color: aqua;
+}
+
+nav {
+    height: 50px;
+    width: 1000px;
+    margin: 0 auto 20px;
+}
+
+.searchbox {
+    padding: 5px;
+    margin: 10px 10px;
+    width: 200px;
+}
+
+#main {
+    float: right;
+    width: 80%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aqua;
+}
+body {
+    margin-top: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    background-image: url('image/F1-Schedule.jpg');
+}
+
+footer {
+    clear: both;
+    width: 100%;
+    color:aqua
+}
+
+header,
+section,
+footer,
+aside,
+nav,
+main,
+article,
+figure {
+    display: block;
+}
+
+
+nav>ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav>ul>li {
+    float: left;
+    color: aqua;
+}
+
+nav>ul>li a {
+    display: block;
+    color: blue;
+    text-align: center;
+    padding: 18px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+ul>li a {
+    background-color: rgba(255, 255, 255, 0.7);
+    display: block;
+    color: blue;
+    text-align: left;    
+    padding: 3px;
+}
+table {
+    background-color: rgba(255, 255, 255, 0.9);
+    font-style:normal;
+    font-family: Impact, Haettenschweiler, 'Arial', sans-serif;
+    font-size: 12pt;
+    color: rgb(0, 119, 255);
+}
+table,
+td,
+th {
+    border: 1px solid aqua;
+    border-collapse: collapse;
+    padding: 5px;
+}
+table>caption{
+    color: aqua;
+}
+
